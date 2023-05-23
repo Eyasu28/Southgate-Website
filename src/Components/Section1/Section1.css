@@ -1,0 +1,161 @@
+.banner-image{
+    background-image : url('../../Image/deluxe and studio apartment 1.png');
+    background-size : cover;
+    background-position : center;
+    background-repeat : no-repeat;
+    height : 424px;
+
+}
+.contact-button{
+    display : none;
+}
+
+
+.great-vibes{
+    height : 192px;
+    padding-top : 39px;
+}
+.great-text:{
+    /* margin :39px 0 41px 0; */
+    font-weight : bold;
+}
+.great{
+    color : #FFA02E;
+}
+
+.book-now-section{
+    display : none;
+}
+.book-now-section-mobile{
+    height : 413px;
+}
+
+.book-now-white{
+    width : 343px;
+    height : 413px;
+    background-color : white;
+    margin : 0 auto;
+    position : relative;
+    top : -38px;
+    padding-top : 32px;
+}
+.book-now-header{
+    width: 262px;
+    height: 60px;
+    /* margin-bottom : 9px; */
+}
+.book-now-subtitle{
+    color : #FFA02E;
+}
+.upcoming-events{
+    margin-bottom : 27px;
+}
+.get-offers{
+    margin-bottom : 58px;
+}
+
+.banner-about{
+    padding : 31px 0;
+    /* margin: 31px 0; */
+    border-top: 0.5px solid #5E5745;
+    border-bottom: 0.5px solid #5E5745;
+}
+
+.about-southgate{
+    border-bottom: 0.5px solid #5E5745;
+}
+
+
+
+@media (min-width: 768px){
+    .banner-image {
+        background-size : cover;
+        background-position : center;
+        height :800px;
+        width : 45%;
+    }
+    .button-container{
+        float :right;
+        padding : 41px 70px 0 0;
+    }
+    .contact-button{
+        display : block;
+        width : 146px;
+        height : 42px;
+        border: 0.5px solid #5E5745;
+        padding-top : 5px;
+
+    }
+    .contact-button a{
+        text-decoration : none;
+        color : #5E5745;
+    }
+    .about-southgate{
+        padding : 64px 0 0 68px;
+        border-bottom : 0px;
+        border-right: 0.5px solid #5E5745;
+    }
+    .about-southgate-text{
+        width : 45%;
+        padding : 46px 0 0 44px;
+    }
+    .banner-right, .about-southgate{
+        width : 55%;
+    }
+    .great-text{
+        margin : 120px 69px;
+    }
+    .banner{
+        display : flex;
+        justify-content : space-between;
+        height : 800px;
+        position : relative;
+    }
+    .banner-about{
+        display : flex;
+        height : 216px;
+        padding : 0;
+
+    }
+    .book-now-section-mobile{
+        display : none;
+    }
+    .book-now-section{
+        display : block;
+       margin-left : 69px;
+       position : relative;
+       top : 550px;
+       left : -750px;
+
+    }
+    .book-now-header{
+        font-size : 23px;
+        margin :0;
+    }
+    .book-now-white{
+        width : 971px;
+        height : 120px;
+        background : white;
+        display : flex;
+        padding : 26px 0 31px 0;
+    }
+    .upcoming-events, .get-offers, .button-section{
+        width : 33.3%;
+    }
+    .upcoming-events, .get-offers{
+        border-right: 0.5px solid #5E5745;
+    }
+    .upcoming-events{
+        padding-left : 53px; 
+    }
+    .get-offers{
+        padding-left : 35px; 
+    }
+    .book-now-subtitle{
+        color : #FFA02E;
+    }
+    .button-section button{
+        margin : 0 auto;
+    }
+
+}

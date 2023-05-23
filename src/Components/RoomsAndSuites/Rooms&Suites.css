@@ -1,0 +1,45 @@
+.book-now{
+    background : #FFA02E;
+    border : #FFA02E;
+    width : 161px;
+    height : 49px;
+}
+.image-container{
+    width : 343px;
+    height : 411px;
+}
+.list-items{
+    width : 343px;
+    margin : 0 auto;
+}
+
+/* .discover-room{
+    background : #FFA02E;
+    width : 161px;
+    height : 49px;
+} */
+
+
+
+@media(max-width : 768px){
+
+    .book-now{
+        background-color : #FFA02E;
+        width : 172px;
+        height : 56px;
+    }
+    .image{
+        width : 392px;
+        height : 470px;
+    }
+    .list-items{
+        width : 392px;
+        margin : 0 auto;
+    }
+    /* .discover-room{
+        background : #FFA02E;
+        width : 161px;
+        height : 49;
+    } */
+
+}

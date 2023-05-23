@@ -1,0 +1,43 @@
+.last-component-container{
+    padding-bottom : 68px;
+    border-bottom: 0.5px solid #5E5745;
+}
+.last-component{
+    height : 344px;
+    background-image : url('../../Image/Rectangle 44.png');
+    backgorund-size : cover;
+    background-position: center;
+}
+.mobile-text{
+    width : 341px;
+    height : 241px;
+    padding-top : 67px;
+    margin : 0 auto;
+}
+.desktop-text{
+    display : none;
+}
+
+@media(min-width : 768px) {
+    .last-component{
+        padding :169px 0 0;
+    }
+    .last-component-container{
+        padding-bottom : 134px;
+        border-bottom: 0.5px solid #5E5745;
+    }
+    .desktop-text{
+        display : block;
+        width : 896px;
+        margin : 0 auto;
+    }
+    .desktop-text h3{
+        padding : 0;
+        margin : 0;
+    }
+
+    .mobile-text{
+        display : none;
+    }
+
+}

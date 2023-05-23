@@ -1,0 +1,74 @@
+.the-plaza{
+    padding-top : 137px;
+    border-bottom: 0.5px solid #5E5745;
+}
+.title{
+    color : #FFA02E;
+    margin-bottom : 106px;
+}
+.plaza-items, .plaza-item{
+    margin : 0;
+    padding : 0;
+}
+/* .plaza-item{
+    backgrou-size : cover;
+    background-position : center;
+    background-repeat : no-repeat;
+} */
+.plaza-2{
+    background :url('../../Image/Rectangle 36.png');
+    /* backgrou-size : contain; */
+    background-position : center;
+    background-repeat : no-repeat;
+}
+.plaza-3{
+    background :url('../../Image/Rectangle 3.png');
+    backgrou-size : contain;
+    background-position : center;
+    background-repeat : no-repeat;
+}
+.plaza-4{
+    background :url('../../Image/Rectangle 37.png');
+    backgrou-size : contain;
+    background-position : center;
+    background-repeat : no-repeat;
+}
+.plaza-5{
+    background :url('../../Image/Rectangle 41.png');
+    backgrou-size : contain;
+    background-position : center;
+    background-repeat : no-repeat;
+}
+.plaza-6{
+    background :url('../../Image/Rectangle 40.png');
+    backgrou-size : contain;
+    background-position : center;
+    background-repeat : no-repeat;
+}
+.plaza-7{
+    background :url('../../Image/Rectangle 42.png');
+    backgrou-size : contain;
+    background-position : center;
+    background-repeat : no-repeat;
+}
+.plaza-8{
+    background :url('../../Image/Rectangle 42.png');
+    backgrou-size : contain;
+    background-position : center;
+    background-repeat : no-repeat;
+}
+.plaza-9{
+    background :url('../../Image/Rectangle 43.png');
+    backgrou-size : contain;
+    background-position : center;
+    background-repeat : no-repeat;
+}
+.view-button{
+    
+        background : #FFA02E;
+        border : #FFA02E;
+        width : 172px;
+        height : 56px;
+        margin : 92px 0 112px;
+    
+}

@@ -1,0 +1,29 @@
+.header{
+    height : 120px;
+    border-bottom: 0.5px solid #5E5745;
+    display : flex;
+    justify-content  : space-between;
+}
+.logo{
+    margin :29px 0 0 16px ;
+}
+.header__nav ul{
+    float : right;
+}
+.header__nav ul li {
+    list-style : none;
+    display : inline-block;
+}
+.header__nav ul li a{
+    text-decoration : none;
+    color : #000000;
+}
+a.active, a:hover{
+    background : #F2A037;
+    transition : .5s;
+}
+@media(min-width : 768px){
+    .logo{
+        margin : 17px 0 0 70px;
+    }
+}

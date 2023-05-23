@@ -1,0 +1,32 @@
+.apartments-section{
+    border-top: 0.5px solid #5E5745;
+    border-bottom: 0.5px solid #5E5745;
+    height : 1356px;
+    
+}
+.towels{
+    /* width : 347px; */
+    height : 399px;
+    margin : 0 auto;
+    /* max-width : 100%; */
+}
+.towels img{
+    
+}
+.towels-section{
+    padding-top : 76px;
+    padding-bottom : 76px;
+    border-right: 0.5px solid #5E5745;
+}
+.apartments-display{
+    padding-top : 76px;
+    padding-bottom : 76px;
+}
+
+@media(min-width : 768px){
+    .towels{
+        width : 583px;
+        height : 681px;
+        margin : 0 auto;
+    }
+}

@@ -1,0 +1,79 @@
+.footer{
+    background-image : url('../../Image/Rectangle 38.png');
+    background-size : cover;
+    bakground-position : center;
+}
+.map{
+    background-image : url('../../Image/Screenshot 2022-10-05 at 10.15 1.png') ;
+    background-size : cover;
+    bakground-position : center;
+    width : 343px;
+    height : 195px;
+    margin : 0 auto;
+    position : relative;
+    top : -55px
+}
+.logo-section img{
+    margin : 0 auto;
+}
+.buttons-section{
+    padding : 60px 0;  
+    margin-top : 32px;
+    border-top : 1px solid  #FFFFFF;
+    border-bottom : 1px solid  #FFFFFF;
+}
+.first-group, .second-group{
+    display : flex;
+    margin : 0 auto;
+    
+}
+.address{
+    margin: 0 auto;
+}
+.buttons-section ul li a{
+    text-decoration : none;
+    color : white;
+}
+.buttons-section ul{
+  margin : 0 auto;
+}
+.home-link, .plaza-link{
+    list-style : none;
+    margin-right : 25px;
+}
+.copy-right{
+    padding : 56px 0 88px 0;
+}
+
+
+
+
+@media(min-width : 768px){
+    .map-section{
+        padding-top : 48px;
+    }
+    .map{
+        width : 561px;
+        height : 283px;
+        margin : 0 auto;
+        position : relative;
+        top : 0;
+    }
+    .logo-section {
+        padding : 75px 0 47px 0;
+    }
+    .address small,.logo-image{
+        float :right;
+        margin : 0 110px 0;
+    }
+    
+    .first-group, .second-group{
+        display : inline-block;
+    }
+    .buttons-section ul li a{
+        text-decoration : none;
+        color : white;
+    }
+
+    
+}

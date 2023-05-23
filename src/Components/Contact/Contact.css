@@ -1,0 +1,24 @@
+.contact-section{
+    padding : 104px 0;
+}
+.contact{
+    color : #FFA02E;
+    padding-bottom : 51px;
+}
+input,textarea,.submit-button{
+    border : 0px;
+    width : 340px;
+    margin-bottom : 22px;
+}
+input{
+    height : 69px;
+}
+.submit-button{
+
+}
+
+@media(min-width : 768px){
+.contact-button {
+    /* padding-bottom : 223px; */
+}
+}

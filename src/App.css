@@ -1,0 +1,18 @@
+body{
+  margin : 0;
+  font-family : montserrat;
+}
+@font-face{
+  font-family : 'a Atmospheric';
+  src : url('./Fonts/aAtmospheric.ttf');
+}
+.atmospheric{
+  font-family : 'a Atmospheric'
+}
+@font-face{
+  font-family : 'great-vibes';
+  src : url('./Fonts/GreatVibes-Regular.ttf');
+}
+.great{
+  font-family : 'great-vibes';
+}

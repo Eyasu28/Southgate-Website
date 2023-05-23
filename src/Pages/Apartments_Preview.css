@@ -1,0 +1,6 @@
+.apartments_banner{
+    height : 767px;
+}
+.options-left p, .options-right p{
+    line-height : 0;
+}
