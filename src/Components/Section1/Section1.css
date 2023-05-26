@@ -1,9 +1,36 @@
+.home-header{
+    height : 120px;
+    border-bottom : 0.5px solid #5E5745;
+}
 .banner-image{
     background-image : url('../../Image/deluxe and studio apartment 1.png');
     background-size : cover;
     background-position : center;
     background-repeat : no-repeat;
     height : 424px;
+    position : relative;
+    animation : change 10s infinite ease-in-out;
+
+}
+@keyframes change{
+    0%{
+        background-image : url('../../Image/deluxe and studio apartment 1.png')
+    }
+    20%{
+        background-image : url('../../Image/Rectangle 2.png')
+    }
+    40%{
+        background-image : url('../../Image/Rectangle 3.png')
+    }
+    60%{
+        background-image : url('../../Image/Rectangle 4.png')
+    }
+    80%{
+        background-image : url('../../Image/Rectangle 2.png')
+    }
+    100%{
+        background-image : url('../../Image/deluxe and studio apartment 1.png')
+    }
 
 }
 .contact-button{
@@ -129,6 +156,7 @@
 
     }
     .book-now-header{
+        opacity : 0.5;
         font-size : 23px;
         margin :0;
     }

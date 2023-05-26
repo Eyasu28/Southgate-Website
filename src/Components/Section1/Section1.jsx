@@ -1,14 +1,16 @@
 import React from 'react'
 import './Section1.css'
 import Header from '../Header/Header'
+import Logo from '../../Image/Logo Main.png'
+import { Link } from 'react-router-dom'
 
 const Section1 = () => {
 return (
     <>
         <div className="banner">
             <div className="py-0 banner-right">
-                <div className="header">
-                <Header/>
+                <div className="home-header">
+                <Header logo = {Logo} />
                 </div>
                 <div className='great-vibes'>
                     <div className="great-text text-center atmospheric">
@@ -21,7 +23,7 @@ return (
             
             <div className="banner-image" >
                 <div className="button-container">
-                    <div className="contact-button text-center"><a href="#">Contact</a></div>
+                    <div className="contact-button text-center"><Link to = '/contact'><a href="#">Contact</a></Link></div>
                 </div>
                 <div className="book-now-section">
                     <p className="book-now-header m-0">Book now with the best price</p>

@@ -23,7 +23,7 @@
     border-bottom : 1px solid  #FFFFFF;
 }
 .first-group, .second-group{
-    display : flex;
+    display : inline-block;
     margin : 0 auto;
     
 }
@@ -34,16 +34,21 @@
     text-decoration : none;
     color : white;
 }
-.buttons-section ul{
-  margin : 0 auto;
+.buttons-section ul li a :hover{
+    color : #FFA02E;
 }
-.home-link, .plaza-link{
+.buttons-contain {
+    width : fit-content;
+    margin : 0 auto;
+}
+.home-link, .rooms-link{
     list-style : none;
-    margin-right : 25px;
+    /* margin-right : 20px; */
 }
 .copy-right{
     padding : 56px 0 88px 0;
 }
+
 
 
 
@@ -55,7 +60,7 @@
     .map{
         width : 561px;
         height : 283px;
-        margin : 0 auto;
+        margin : 0 auto 30px;
         position : relative;
         top : 0;
     }
@@ -66,13 +71,30 @@
         float :right;
         margin : 0 110px 0;
     }
+    /* .buttons-section{
+        display : flex;
+    } */
     
     .first-group, .second-group{
         display : inline-block;
     }
-    .buttons-section ul li a{
+    .buttons-section{
+    
+        padding : 20px 0; 
+    }
+    .buttons-section ul,.buttons-section {
+        display : flex;
         text-decoration : none;
         color : white;
+        margin : 0;
+        text-align : center;
+    }
+    .buttons-contain ul li{
+        margin : 0 20px;
+    }
+    .rooms-link{
+        margin-right : 0;
+        list-style : disc;
     }
 
     

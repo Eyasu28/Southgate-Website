@@ -5,19 +5,13 @@
     height : 384px;
     margin-top : 51px;
 }
-.our-services-text{
+.our-services{
+    width : 250px;
     margin : 0 auto;
 }
 /* .our-services{
     width : fit-content;
 } */
-.our-services div p{
-   margin-bottom : 0;
-   text-align : left;
-}
-.our-services div p::before{
-
- }
 
 @media(max-width : 768px){
 
@@ -28,6 +22,10 @@
     .our-services-section{
         margin-top : 104px;
         margin-bottom : 104px;
+    }
+    .our-services{
+        width : 500px;
+        margin : 0 auto;
     }
     .first-list p{
         text-align : right;

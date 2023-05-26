@@ -8,10 +8,28 @@
     width : 343px;
     height : 411px;
 }
-.list-items{
+.list-items {
     width : 343px;
     margin : 0 auto;
 }
+.list-items ul li{
+    list-style : none;
+    opacity : 0.5;
+}
+.discover-room{
+    color : #FFA02E;
+    width : 161px;
+    height : 49px;
+}
+.butons button{
+    width : 56px;
+    height : 56px;
+    border : 2px solid #FFA02E;
+}
+.next-buton button{
+background : #FFA02E;
+}
+
 
 /* .discover-room{
     background : #FFA02E;
@@ -21,10 +39,15 @@
 
 
 
-@media(max-width : 768px){
-
+@media(min-width : 768px){
+    /* .sub-header{
+        padding :0  0 113px 117px;
+    } */
+    .butons button{
+        width : 90px;
+        height : 87px;
+    }
     .book-now{
-        background-color : #FFA02E;
         width : 172px;
         height : 56px;
     }

@@ -1,6 +1,77 @@
 .apartments_banner{
-    height : 767px;
+    background-image : url('../Image/Deluxe &studio apartment a 1.png');
+    height : 846px;
+    margin-bottom : 108px;
+}
+.apartment-title{
+    margin-bottom : 42px;
+}
+
+.counter span{
+    width : 13px;
+    height : 5px;
+    background-color : #FFFFFF;
+    margin : 20px;
+}
+
+.buttons-line{
+    margin : 500px 80px 0 0;
+}
+.control-buttons{
+    float : right;
+}
+.control-buttons button{
+    width : 90px;
+    height : 90px;
+    border : 3px solid #F2A037;
+    margin : 20px;
+}
+.back{
+    background-color: rgba(255,255,255,0);
+}
+.next{
+    background-color: #F2A037;
+}
+.options-container{
+    width : fit-content;
+    margin :0 auto;
 }
 .options-left p, .options-right p{
-    line-height : 0;
+    line-height : 10px;
+}
+.back-button{
+    background : #FFFFFF;
+    border : 3px solid #F2A037;
+    color : #F2A037;
+    
+}
+/* .options-left p, .options-right p ::before{
+   Content: '';
+   background : url('../Icons/Subtract.svg');
+} */
+
+
+@media(min-width : 768px){
+    .options-section{
+        border-top : 0.5px solid #5E5745;
+        
+    }
+    .options-left, .options-right{
+        padding-top : 86px;
+    }
+    .right-button{
+        padding : 63px 0 143px 0;
+    }
+    .left-button{
+        padding : 63px 0 143px 0;
+        border-right : 0.5px solid #5E5745;
+    }
+    .options-left{
+        border-right : 0.5px solid #5E5745;
+        /* padding-left :150px; */
+    }
+    .button{
+        border-bottom : 0.5px solid #5E5745;
+        margin-bottom: 57px;
+    }
 }

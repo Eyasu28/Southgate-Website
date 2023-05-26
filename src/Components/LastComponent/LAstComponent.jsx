@@ -6,12 +6,12 @@ const LAstComponent = () => {
     <>
       <div className="last-component-container">
       <div className="last-component">
-        <h3 className="last-component-text text-white text-center desktop-text">
+        <h3 className="last-component-text text-white text-center desktop-text atmospheric">
           WE WILL ALSO ASTONISH YOU WITH A 
         </h3>
-        <h3 className="last-component-text text-white text-center desktop-text">COMPLIMENTARY STARTER AND DESSERT ON</h3>
-        <h3  className="last-component-text text-white text-center desktop-text"> YOUR EATERY ENCOUNTERS</h3>
-        <p className="text-white text-center mobile-text atmospheric">
+        <h3 className="last-component-text text-white text-center desktop-text atmospheric">COMPLIMENTARY STARTER AND DESSERT ON</h3>
+        <h3  className="last-component-text text-white text-center desktop-text atmospheric"> YOUR EATERY ENCOUNTERS</h3>
+        <p className="text-white text-center mobile-text">
           You will also enjoy the variety of restaurant and bars within the
           surrounding to provide you with on call delivery services or to visit
           them with very few steps from the plaza in each direction. Your Bar &

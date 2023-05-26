@@ -1,3 +1,20 @@
+.left-image{
+    background-image : url('../../Image/twin room b.png');
+    background-size : cover;
+    background-position : right;
+
+}
+.main-image{
+    background-image : url('../../Image/suite apartment a.png');
+    background-size : cover;
+    background-position : center;
+}
+.right-image{
+    background-image : url('../../Image/Deluxe &studio apartment c.png');
+    background-size : cover;
+    background-position : left;
+}
+
 .gallery{
     padding : 78px 0 80px;
     margin-bottom : 88px;
@@ -8,13 +25,14 @@
     margin-bottom : 78px;
 }
 .gallery-images{
-    justify-content : space-around;
+    justify-content : space-between;
 }
 .left-image, .right-image{
-    width: 299px;
+    width: 20%;
     height : 197px;
-    padding-top : 38.5px;
+    margin-top : 38.5px;
 }
+
 .main-image{
     width : 314px;
     height : 274px;
@@ -35,12 +53,11 @@
         margin-bottom : 69px;
     }
     .left-image, .right-image{
-        width: 626px;
         height : 353px;
-        padding-top : 67.5px;
+        margin-top : 67.5px;
     }
     .main-image{
-        width : 859px;
+        width : 50%;
         height : 483px;
     }
     .main-image img{

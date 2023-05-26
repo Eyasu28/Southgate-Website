@@ -1,22 +1,24 @@
 import React from 'react'
 import './Rooms&Suites.css'
+import Back from '../../Icons/Arrow 2.png'
+import Next from '../../Icons/Arrow 1.png'
+import Discover from '../../Icons/Arrow 6.png'
+import { Link } from 'react-router-dom'
 
 const RoomsAndSuites = (props) => {
   return (
     <>
-     <div className="sub-header atmospheric">
-       <h4>Rooms</h4>
-       <h4>& Suites</h4>
-      </div>
-      
-     <div className="text-center">
+    
 
-      <div className='image-container'>
-        <img src={props.image} alt=""  />
+      
+     <div className="text-center"></div>
+
+      <div className=' text-center'>
+        <img src={props.image} alt="" className='image-container' />
       </div>
 
       <div className='list-items'>
-        <h4>{props.title}</h4>
+        <h4 className='atmospheric pt-5 pb-3'>{props.title}</h4>
         <ul>
           <li>{props.option1}</li>
           <li>{props.option2}</li>
@@ -28,12 +30,9 @@ const RoomsAndSuites = (props) => {
         </ul>
       </div>
       
-      <div className='d-flex text-center buttons'>
-          <button className='book-now text-white'>Book Now</button>
-          <button className='discover-room'>Discover Room</button>
-      </div>
+     
 
-     </div>
+    
     </>
   )
 }

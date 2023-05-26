@@ -1,10 +1,16 @@
 import React from 'react'
 import './ThePlaza.css'
 import PlazaItem from './PlazaItems/PlazaItem'
+import Header from '../Header/Header'
+import Logo from '../../Image/Logo Main.png'
+import { useLocation } from 'react-router-dom'
+
 
 const ThePlaza = () => {
-  return (
+    const location = useLocation();
+    return (
     <>
+        {location.pathname !== "/" && <Header logo = {Logo}/>}
         <div className="the-plaza">
         <div className="text-center title atmospheric">
             <h3>THE PLAZA</h3>
@@ -12,7 +18,7 @@ const ThePlaza = () => {
 
 
         <div className="row">
-            <div className='col-md-8 plaza-1 plaza-items'> <PlazaItem 
+            <div className='col-md-8 plaza-1 plaza-items '> <PlazaItem 
                                         item_title = "WE CONVEY UP TO STANDARD AND ADD UP TO NECESSITIES LIKE"/> </div>
             <div className='col-md-4 plaza-2 plaza-items text-white'> <PlazaItem item_title = " BUSINESS CENTER"/> </div>
         </div>

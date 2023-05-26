@@ -5,17 +5,19 @@ import './OurServices.css'
 const OurServices = () => {
   return (
     <>
-        <div className="text-center our-services-section pt-4  text-white">
-            <h3 className='our-services-text atmospheric'>OUR SERVICES</h3> 
-            <div className="row our-services">
+        <div className=" our-services-section pt-4  text-white">
+            <h3 className='our-services-text atmospheric text-center mb-5'>OUR SERVICES</h3> 
+            <div className="services-list">
+            <div className="row our-services pt-4">
                 <div className="col-md-6 first-list">
-                    <p>Hotel Apartment</p>
-                    <p>Shops</p>
+                    Hotel Apartment <br />
+                    Shops
                 </div>
                 <div className="col-md-6">
-                    <p>Bar and Resturant</p>
-                    <p>Saloons</p>
+                    Bar and Resturant <br />
+                    Saloons
                 </div>
+            </div>
             </div>
         </div>   
     </>

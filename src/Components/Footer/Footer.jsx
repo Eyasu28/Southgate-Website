@@ -1,6 +1,7 @@
 import React from 'react'
 import LogoImage from '../../Image/Logo White.png'
 import './Foter.css'
+import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
     <>
@@ -10,11 +11,11 @@ const Footer = () => {
               <div className="map"></div>
             </div>
             <div className="col-md-6 logo-section ">
-              <div className="logo-image text-right">
+              <div className="logo-image text-center">
 
                     <img src={LogoImage} alt="logo" />
               </div>
-              <div className="address text-white text-right">
+              <div className="address text-white ">
                   <small>Address : Addis Ababa, Ethiopia, bole sub city woreda 03 house # 4/100 </small><br />
                   <small>+251928101112 , +251116671474</small><br />
                   <small>Info@Southgate.com</small>
@@ -22,14 +23,17 @@ const Footer = () => {
             </div>
           </div>
           <div className="buttons-section text-center text-white">
+            <div className="buttons-contain d-flex">
+ 
             <ul className='first-group'>
-              <li className='home-link'><a href="">Home</a></li>
-              <li className='rooms-link'><a href="">Rooms</a></li>
+              <li className='home-link'><Link to = '/'><a href="">Home</a></Link></li>
+              <li className='rooms-link'><Link to = '/rooms'><a href="">Rooms</a></Link></li>
             </ul>
             <ul className='second-group'>
-              <li className='plaza-link'><a href="">Plaza</a></li>
-              <li className='gallery-link'><a href="">Gallery</a></li>
+              <li className='plaza-link'><Link to = '/plaza'><a href="">Plaza</a></Link></li>
+              <li className='gallery-link'><Link to = '/gallery'><a href="">Gallery</a></Link></li>
             </ul>
+            </div>
 
           </div>
           <div className="copy-right text-white text-center">
