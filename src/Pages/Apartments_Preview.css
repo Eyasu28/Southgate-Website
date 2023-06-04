@@ -1,77 +1,76 @@
-.apartments_banner{
-    background-image : url('../Image/Deluxe &studio apartment a 1.png');
-    height : 846px;
-    margin-bottom : 108px;
+.apartments_banner {
+  background-image: url("../Image/Deluxe &studio apartment a 1.png");
+  height: 846px;
+  margin-bottom: 108px;
 }
-.apartment-title{
-    margin-bottom : 42px;
-}
-
-.counter span{
-    width : 13px;
-    height : 5px;
-    background-color : #FFFFFF;
-    margin : 20px;
+.apartment-title {
+  margin-bottom: 42px;
 }
 
-.buttons-line{
-    margin : 500px 80px 0 0;
+.counter span {
+  width: 13px;
+  height: 5px;
+  background-color: #ffffff;
+  margin: 20px;
 }
-.control-buttons{
-    float : right;
+
+.buttons-line {
+  margin: 500px 80px 0 0;
 }
-.control-buttons button{
-    width : 90px;
-    height : 90px;
-    border : 3px solid #F2A037;
-    margin : 20px;
+.control-buttons {
+  float: right;
 }
-.back{
-    background-color: rgba(255,255,255,0);
+.control-buttons button {
+  width: 90px;
+  height: 90px;
+  border: 3px solid #f2a037;
+  margin: 20px;
 }
-.next{
-    background-color: #F2A037;
+.back {
+  background-color: rgba(255, 255, 255, 0);
 }
-.options-container{
-    width : fit-content;
-    margin :0 auto;
+.next {
+  background-color: #f2a037;
 }
-.options-left p, .options-right p{
-    line-height : 10px;
+.options-container {
+  width: 55%;
+  margin: 0 auto;
 }
-.back-button{
-    background : #FFFFFF;
-    border : 3px solid #F2A037;
-    color : #F2A037;
-    
+.options-left p,
+.options-right p {
+  line-height: 10px;
+}
+.back-button {
+  background: #ffffff;
+  border: 3px solid #f2a037;
+  color: #f2a037;
 }
 /* .options-left p, .options-right p ::before{
    Content: '';
    background : url('../Icons/Subtract.svg');
 } */
 
-
-@media(min-width : 768px){
-    .options-section{
-        border-top : 0.5px solid #5E5745;
-        
-    }
-    .options-left, .options-right{
-        padding-top : 86px;
-    }
-    .right-button{
-        padding : 63px 0 143px 0;
-    }
-    .left-button{
-        padding : 63px 0 143px 0;
-        border-right : 0.5px solid #5E5745;
-    }
-    .options-left{
-        border-right : 0.5px solid #5E5745;
-        /* padding-left :150px; */
-    }
-    .button{
-        border-bottom : 0.5px solid #5E5745;
-        margin-bottom: 57px;
-    }
+@media (min-width: 768px) {
+  .options-section {
+    border-top: 0.5px solid #5e5745;
+  }
+  .options-left,
+  .options-right {
+    padding-top: 86px;
+  }
+  .right-button {
+    padding: 63px 0 143px 0;
+  }
+  .left-button {
+    padding: 63px 0 143px 0;
+    border-right: 0.5px solid #5e5745;
+  }
+  .options-left {
+    border-right: 0.5px solid #5e5745;
+    /* padding-left :150px; */
+  }
+  .button {
+    border-bottom: 0.5px solid #5e5745;
+    margin-bottom: 57px;
+  }
 }
