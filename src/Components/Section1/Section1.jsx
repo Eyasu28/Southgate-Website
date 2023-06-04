@@ -23,7 +23,7 @@ return (
             
             <div className="banner-image" >
                 <div className="button-container">
-                    <div className="contact-button text-center"><Link to = '/contact'><a href="#">Contact</a></Link></div>
+                    <div className="contact-button text-center"><Link to = '/contact'>Contact</Link></div>
                 </div>
                 <div className="book-now-section">
                     <p className="book-now-header m-0">Book now with the best price</p>
